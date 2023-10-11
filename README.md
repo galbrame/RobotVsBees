@@ -5,6 +5,8 @@ The robot moves around an (x,z) plane and jumps using the y-axis.
 
 Note: This was my first attempt at a 3D game in Processing, and as such, creating a more accurate hit box for contact with odd angles, etc. was a bit beyond my scope. I do not intend to go back and improve it at this time.
 
+![robot vs bees game play](/readme_img/rVSb.gif)
+
 
 # Build Notes
 This game was built on the following machine specs:
@@ -28,6 +30,17 @@ This game was built on the following machine specs:
     * Clicking in the screen while in first person switches to free-look camera mode; clicking again returns to fixed camera
     * Pressing 'b' will add another bee, to a maximum of 10 bees
 * If the game ends, press any key to restart
+
+
+# How to Run
+1. Copy all files to a local folder
+    * NOTE: The folder **MUST** be named `RobotVsBees` for Processing to run it
+2. Open Processing (Processing 3.5.4 or higher)
+3. In Processing, go to File > Open... and navigate to your /RobotVsBees folder
+4. Select `RobotVsBees.pde` and click 'Open'
+5. Click the 'run' (play) button.
+6. Enjoy!
+
 
 # Acknowledgements
 * Teapot head: teapot.obj modified from files at https://free3d.com/3d-model/teapot-glass-58146.html by rito-kun
